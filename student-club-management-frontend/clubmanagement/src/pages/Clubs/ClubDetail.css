@@ -1,0 +1,23 @@
+.club-detail-container {
+    padding: 20px;
+    background-color: #f0f4f8;
+}
+
+.club-detail-container h2 {
+    color: #4a90e2;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.back-link:hover {
+    background-color: #357ab8;
+}

@@ -1,0 +1,52 @@
+.member-list-container {
+    padding: 20px;
+    background-color: #e9ecef;
+}
+
+.member-list {
+    list-style: none;
+    padding: 0;
+}
+
+.member-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.member-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.member-detail-link {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.member-detail-link:hover {
+    background-color: #357ab8;
+}
+
+.create-member-button {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.create-member-button:hover {
+    background-color: #ff4c3b;
+}
